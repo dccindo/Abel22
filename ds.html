@@ -1,0 +1,165 @@
+<html>
+	<head>
+	<title> digestive system </title>
+		<style>
+		
+		.body {
+		text-align :center;
+		}
+		
+		.menu {
+		width:128px;
+		border : 2px solid grey;
+		background-color : grey;
+		text-align :center;
+		line-height :20px;
+		}
+		
+		a {
+		text-decoration :none;
+		color :black;
+		display : inline-block;
+		}
+		
+		h1 {
+		text-align : center;
+		}
+		
+		.s {
+		text-align : center;
+		}
+		
+		ul li {
+		float :left;
+		list-style-type :none;
+		}
+		
+		.overlay {
+		width  :0px;
+		height :0px;
+		overflow :hidden;
+		transition :1s;
+		background :grey;
+		}
+		
+		 
+		
+		.overlay:target {
+		height  :225px;
+		width :225px;
+		background-color : rgba (0, 0, 0, 0.8);
+		z-index :99;
+		text-align :center;
+		
+		} 
+		
+		.overlay .close {
+		color : black;
+		text-decoration : none;
+		opacity :0;
+		background-color :grey;
+		margin-top :10px;
+		}
+		
+		.overlay:target .close {
+		opacity :1;
+		}
+		
+		.gambar {
+		width :2100px;
+		text-align : center;
+	    }
+
+		img {
+		height :200px;
+		width :200px;
+		}
+		
+		
+		</style>
+	</head>		
+	<body>
+<div class = "menu"> 
+	<a href = "corpus2.html"> homescreen  </a><br>
+	<a href = "rs.html"> Respiratory system </a>
+	<a href = "cs.html"> Circulatory system </a>
+</div>
+<h1> DIGESTIVE SYSTEM </h1>
+	<div class = "body"> The main organs that make up the digestive system <br> 
+	(in order of their function) are the mouth, esophagus, stomach, small intestine, <br>
+	large intestine, rectum and anus. Helping them along the way are the pancreas, gall bladder and liver.</div>
+		<div class ="s"> <img src = "ilh.png"> </img> </div>
+	
+	<div class = "gambar"><ul>
+		<li> 
+			<a href = "#stomach"> 
+				<img src = "stomach.png" height = "400px"> 
+				<div class = "overlay" id = "stomach"> Your stomach is a muscular organ that digests food.
+				It is part of your gastrointestinal (GI) tract. When your stomach receives food, it contracts and produces acids and enzymes that break down food. When your stomach has broken down food, it passes it to your small intestine. 
+					<a href ="#" class = "close"> close </a> 
+			    </div> 
+			</a> 
+		</li>
+		<li> 
+			<a href = "#large"> 
+			<img src = "ihl.png" width = "400px" height = "400px">  
+			<div class ="overlay" id = "large">
+			The long, tube-like organ that is connected to the small intestine at one end and the anus at the other. 
+			The large intestine has four parts: cecum, colon, rectum, and anal canal. 
+			Partly digested food moves through the cecum into the colon, 
+			where water and some nutrients and electrolytes are removed.
+			<a href ="#" class = "close"> close </a>
+			</div>
+			</a>      
+		</li>
+		
+		<li> 
+			<a href = "#small intestine">
+			<img src = "ha.png" width = "400px" height ="400px">
+				<div class = "overlay" id = "small intestine">
+			A long tube-like organ that connects the stomach and the large intestine. 
+			It is about 20 feet long and folds many times to fit inside the abdomen.
+			The small intestine has three parts: the duodenum, jejunum, and ileum.
+					<a href = "#" class = "close"> close </a>
+				</div>
+			</a> 
+		</li>
+		
+		<li>
+			<a href = "#pharynx"> 
+			<img src = "ah.png" width = "400px" height = "400px">
+			<div class = "overlay" id = "pharynx">
+              Hollow tube that starts behind the nose, goes down the neck, and ends at the top of the trachea and esophagus.
+              The three parts of the pharynx are the nasopharynx, oropharynx, and hypopharynx. 
+             It carries air, food and fluid down from the nose and mouth. 
+              The pharynx is the site of common illnesses, including sore throat and tonsillitis
+				<a href = "#" class = "close"> close </a>
+			</div>
+			</a> 
+		</li>
+		
+		<li> 
+			<a href = "#rectum"> 
+			<img src = "aa.png">  
+			<div class = "overlay" id = "rectum">
+			The rectum is a chamber that begins at the end of the large intestine, 
+			immediately following the sigmoid colon, and ends at the anus
+			<a href ="#" class = "close"> close </a>
+			</div>
+            </a>			
+		</li>
+		
+		<li> 
+			<a href = "#oseo"> 
+			<img src = "ose.png" width = "100px" height = "300px"> 
+			<div class = "overlay" id = "oseo">
+	         hollow, muscular tube that carries food and liquid from your throat to your stomach. 
+			 Muscles in your esophagus propel food down to your stomach.
+			 <a href = "#" class = "close"> close </a>
+			 </div>
+			</a> 
+		</li>
+	</ul>
+		</div>
+	</body>
+</html>
